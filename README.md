@@ -5,6 +5,8 @@ Minimal webapp2 app showing a possible bug
 
 The bug has been reported to googleappengine issue list, link: https://code.google.com/p/googleappengine/issues/detail?id=11557
 
+**Update**: This was a false alarm. What happened was that I did not explicitly state the webapp2 version in app.yaml, and then dev_appserver (without any notice/warning/error) just used version 2.3. I would have expected either an import error (preferred behaviour) or at the very least a warning on the terminal.
+
 Run
 ---
     dev_appserver.py debugTrueBugInWebapp2
