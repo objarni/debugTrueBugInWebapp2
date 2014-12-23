@@ -5,7 +5,7 @@ Minimal webapp2 app showing a possible bug
 
 Run
 ---
-  dev_appserver.py debugTrueBugInWebapp2
+   dev_appserver.py debugTrueBugInWebapp2
 
 .. then point your browser to http://localhost:8080.
 
