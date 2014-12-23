@@ -3,6 +3,8 @@ debugTrueBugInWebapp2
 
 Minimal webapp2 app showing a possible bug
 
+The bug has been reported to googleappengine issue list, link: https://code.google.com/p/googleappengine/issues/detail?id=11557
+
 Run
 ---
     dev_appserver.py debugTrueBugInWebapp2
